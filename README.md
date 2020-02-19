@@ -16,18 +16,17 @@ The application is a Quiz interface - a UI that shows a set of questions and let
 
 The Quiz features three different types of questions. Use the included mockups as references for styling.
 
-**Multiple**   
+**Multiple**  
 A multiple-choice question (predefined answer options)
 
 ![](./mockups/multiple.png)
 
-
-**Boolean**   
+**Boolean**  
 A "true or false" only answer question
 
 ![](./mockups/boolean.png)
 
-**Text**   
+**Text**  
 An open-ended text question
 
 ![](./mockups/text.png)
@@ -36,8 +35,8 @@ An open-ended text question
 
 1. The UI should fetch the questions data from an API (provided in this repository). More details in [API instructions](#api-instructions)
 
-2. The application should display one question per time, randomly selected from the set of questions.  
-   
+2. The application should display one question per time, randomly selected from the set of questions.
+
 3. When the user finishes the Quiz, the UI should display a summary page with the results, including:
 
 - Number of correct answers
@@ -53,17 +52,17 @@ A reference mockup for the summary page is depicted below:
 ### Setup
 
 This repo provides a React application bootstrap. To get setup, run these commands:
- 
+
 - Install dependencies:
 
 ```sh
-npm install
+yarn install
 ```
 
 - Run it locally
 
 ```sh
-npm start
+yarn start
 ```
 
 The command above will:
@@ -74,7 +73,7 @@ The command above will:
 ### API instructions
 
 This repository provides a basic API (running under port 4000) that returns the required data for the application.
-The API will be available after running the `npm start` command.  
+The API will be available after running the `yarn start` command.
 
 #### GET Questions List
 
