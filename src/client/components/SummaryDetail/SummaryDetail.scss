@@ -1,0 +1,28 @@
+$color: #242a33;
+
+.summary-title {
+  font-family: arial;
+  font-size: 1.32em;
+  font-weight: 600;
+  color: $color;
+}
+
+.summary-content {
+  padding: 1.5em 0;
+}
+
+.summary-detail {
+  margin: 5px 0;
+}
+
+.summary-detail-label {
+  font-family: arial;
+  color: $color;
+  margin-right: 5px;
+}
+
+.summary-detail-value {
+  font-family: arial;
+  font-weight: 600;
+  color: $color;
+}
